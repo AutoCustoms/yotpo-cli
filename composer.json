@@ -1,0 +1,23 @@
+{
+    "name": "autocustoms/yotpo-cli",
+    "description": "Awesome CLI app",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Henning Glatter-Götz",
+            "email": "henning@glatter-gotz.com"
+        }
+    ],
+    "require": {
+        "webmozart/console": "~1.0@beta",
+        "symfony/property-access": "^3.2",
+        "symfony/yaml": "^3.2",
+        "yotpo/yotpo": "^0.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "AC\\Yotpo\\": "src/"
+        }
+    }
+}

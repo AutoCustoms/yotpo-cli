@@ -1,0 +1,4 @@
+app:
+  yotpo:
+    key:    the yotpo api key
+    secret: the yotpo api secret
